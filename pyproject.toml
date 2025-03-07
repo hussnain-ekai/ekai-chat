@@ -1,7 +1,6 @@
-
 [project]
-name = "aider-chat"
-description = "Aider is AI pair programming in your terminal"
+name = "ekai-chat"
+description = "ekai is AI pair programming in your terminal, based on the excellent Aider project (https://github.com/Aider-AI/aider)"
 readme = "README.md"
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -17,13 +16,15 @@ classifiers = [
     "Topic :: Software Development",
 ]
 requires-python = ">=3.9,<3.13"
-dynamic = ["dependencies", "optional-dependencies", "version"]
+version = "0.1.0"
+dynamic = ["dependencies", "optional-dependencies"]
 
 [project.urls]
-Homepage = "https://github.com/Aider-AI/aider"
+Homepage = "https://github.com/hussnain-ekai/ekai-chat"
+Original = "https://github.com/Aider-AI/aider"
 
 [project.scripts]
-aider = "aider.main:main"
+ekai = "ekai.main:main"
 
 [tool.setuptools.dynamic]
 dependencies = { file = "requirements.txt" }
@@ -38,14 +39,14 @@ playwright = { file = "requirements/requirements-playwright.txt" }
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["aider"]
+include = ["ekai"]
 
 [build-system]
 requires = ["setuptools>=68", "setuptools_scm[toml]>=8"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
-write_to = "aider/_version.py"
+write_to = "ekai/_version.py"
 
 [tool.codespell]
 skip = "*.svg,Gemfile.lock"

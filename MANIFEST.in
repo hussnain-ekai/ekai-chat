@@ -1,20 +1,20 @@
-# This needs to sync with aider/help_pats.py
+# This needs to sync with ekai/help_pats.py
 
 global-exclude .DS_Store
 
-recursive-exclude aider/website/examples *
-recursive-exclude aider/website/_posts *
+recursive-exclude ekai/website/examples *
+recursive-exclude ekai/website/_posts *
 
-exclude aider/website/HISTORY.md
-exclude aider/website/docs/benchmarks*.md
-exclude aider/website/docs/ctags.md
-exclude aider/website/docs/unified-diffs.md
+exclude ekai/website/HISTORY.md
+exclude ekai/website/docs/benchmarks*.md
+exclude ekai/website/docs/ctags.md
+exclude ekai/website/docs/unified-diffs.md
 
-exclude aider/website/install.ps1
-exclude aider/website/install.sh
+exclude ekai/website/install.ps1
+exclude ekai/website/install.sh
 
-recursive-exclude aider/website/docs/leaderboards *
-recursive-exclude aider/website/assets *
-recursive-exclude aider/website *.js
-recursive-exclude aider/website *.html
-recursive-exclude aider/website *.yml
+recursive-exclude ekai/website/docs/leaderboards *
+recursive-exclude ekai/website/assets *
+recursive-exclude ekai/website *.js
+recursive-exclude ekai/website *.html
+recursive-exclude ekai/website *.yml
